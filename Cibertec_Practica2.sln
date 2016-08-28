@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCibertecPractica2", "WebCibertecPractica2\WebCibertecPractica2.csproj", "{8C179B47-5F8C-4E25-BEF9-31D957D4C6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCibertecPractica2.Model", "WebCibertecPractica2.Model\WebCibertecPractica2.Model.csproj", "{C0AF83C5-5474-41C5-8517-E5DDBB2FAAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCibertecPractica2.Repository", "WebCibertecPractica2.Repository\WebCibertecPractica2.Repository.csproj", "{34CB0892-875F-468E-9769-E6138CDA5E1A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C179B47-5F8C-4E25-BEF9-31D957D4C6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C179B47-5F8C-4E25-BEF9-31D957D4C6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C179B47-5F8C-4E25-BEF9-31D957D4C6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C179B47-5F8C-4E25-BEF9-31D957D4C6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AF83C5-5474-41C5-8517-E5DDBB2FAAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AF83C5-5474-41C5-8517-E5DDBB2FAAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AF83C5-5474-41C5-8517-E5DDBB2FAAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AF83C5-5474-41C5-8517-E5DDBB2FAAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CB0892-875F-468E-9769-E6138CDA5E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CB0892-875F-468E-9769-E6138CDA5E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CB0892-875F-468E-9769-E6138CDA5E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CB0892-875F-468E-9769-E6138CDA5E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
